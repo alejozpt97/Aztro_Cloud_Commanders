@@ -75,7 +75,7 @@ echo "⚙️ Setting container for API..."
 az webapp config container set \
   --name $API_APP_NAME \
   --resource-group $APP_RG \
-  --container-image-name japersa/aztro-api:latest \
+  --container-image-name alejozpt97/aztro-api:latest \
   --container-registry-url https://index.docker.io
 
 echo "📝 Enabling logs for API..."
@@ -110,7 +110,7 @@ echo "⚙️ Setting container for frontend..."
 az webapp config container set \
   --name $WEB_APP_NAME \
   --resource-group $APP_RG \
-  --container-image-name japersa/aztro-web:latest \
+  --container-image-name alejozpt97/aztro-web:latest \
   --container-registry-url https://index.docker.io
 
 echo "📝 Enabling logs for frontend..."

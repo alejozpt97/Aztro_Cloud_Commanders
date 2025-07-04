@@ -9,4 +9,4 @@ LOCATION="centralus"
 # Docker images and user
 API_IMAGE="aztro-api"
 WEB_IMAGE="aztro-web"
-DOCKERHUB_USER="japersa" # Change this to your Docker Hub username
+DOCKERHUB_USER="alejozpt97" # Change this to your Docker Hub username
