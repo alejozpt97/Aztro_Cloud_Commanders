@@ -4,7 +4,7 @@
 SUFFIX="alt-b"
 
 # Ubicación común para los recursos
-LOCATION="eastus"
+LOCATION="centralus"
 
 # Docker images and user
 API_IMAGE="aztro-api"
