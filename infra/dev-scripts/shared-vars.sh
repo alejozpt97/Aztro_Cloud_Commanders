@@ -1,10 +1,10 @@
 # shared-vars.sh
 
 # Sufijo compartido para nombres de recursos
-SUFFIX="alt-a"
+SUFFIX="alt-b"
 
 # Ubicación común para los recursos
-LOCATION="centralus"
+LOCATION="eastus"
 
 # Docker images and user
 API_IMAGE="aztro-api"
