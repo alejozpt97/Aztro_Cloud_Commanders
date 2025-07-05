@@ -5,22 +5,6 @@ set -e
 # --- Load shared environment variables ---
 source ./shared-vars.sh
 
-# --- Define variables ---
-APP_RG="aztro-rg-$SUFFIX"
-
-PLAN_NAME="aztro-appservice-plan"
-API_APP_NAME="aztro-api-app-$SUFFIX"
-WEB_APP_NAME="aztro-web-app-$SUFFIX"
-
-POSTGRES_SERVER="aztro-postgres-server-$RANDOM"
-POSTGRES_DB="aztrodb"
-POSTGRES_USER="aztroadmin"
-POSTGRES_PASSWORD="P@ssw0rd1234!"
-
-JWT_KEY="bmV3S2V5VmFsdWVGb3JTZWN1cml0eQ=="
-JWT_ISSUER="bmV3SXNzdWVy"
-JWT_AUDIENCE="bmV3QXVkaWVuY2U="
-
 # --- Create resource groups ---
 echo "📦 Creating resource groups..."
 az group create --name $APP_RG --location $LOCATION || true

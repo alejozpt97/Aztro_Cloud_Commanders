@@ -21,6 +21,7 @@ coverage/
 .svelte-kit/
 .sapper/
 .vite/
+.env
 
 # OS files
 .DS_Store
